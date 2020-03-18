@@ -1,0 +1,131 @@
+.invaild_token {
+    background-color: #d25328;
+    text-shadow: 1px 2px 3px #000;
+    border-radius: 10px;
+    font-size: 40px;
+    margin: 155px 15%;
+    padding: 50px;
+    text-align: center;
+    top: 0;
+}
+.livestream {
+    background: transparent none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+#container_wrapper {
+    bottom: 0;
+    height: auto !important;
+    position: absolute !important;
+    top: 0;
+    width: 100% !important;
+}
+#player {
+    position: absolute;
+    width: 100%;
+    top: 38px;
+    bottom: 0;
+}
+.play_mobile {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border-radius: 3px;
+    bottom: 5px;
+    color: #000;
+    font-weight: bold;
+    height: 20px;
+    left: 100px;
+    padding: 12px 16px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+}
+#b-c-facebook {
+    z-index: 99999;
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 0 10px;
+}
+
+#chat-f-b {
+    float: left;
+    padding: 0 25px;
+    padding-left: 15px;
+    width: 100%;
+    color: #fff;
+    height: 38px;
+    line-height: 38px;
+    background-color: #3a5897;
+    border: 0;
+    z-index: 9999999;
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    background-repeat: repeat-x;
+    background-size: auto;
+    background-position: 0 0;
+    text-decoration: none;
+    cursor: pointer;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#chat-f-b label {
+    line-height: 20px;
+    margin: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+}
+
+.chat-logo {
+    padding-right: 15px;
+    max-width: 50px;
+    max-height: 50px;
+    border: none;
+    margin: 0;
+    display: inline-block;
+    height: auto;
+}
+
+#t_f_chat {
+    float: left;
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+#chat_f_close {
+    color: #fff;
+    font-size: 17px;
+    font-family: verdana;
+    text-decoration: none;
+    opacity: 0.5;
+    outline: 0;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+#chat_f_close:hover {
+    opacity: 1;
+}
+
+#f-chat-conent {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    display: none;
+    background-color: #fff;
+    position: relative;
+}
